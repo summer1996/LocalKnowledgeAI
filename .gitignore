@@ -1,0 +1,88 @@
+
+# ==============================
+# Node.js
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# Electron build
+# ==============================
+dist/
+dist-electron/
+out/
+release/
+*.asar
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python test and cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Local database and knowledge data
+# ==============================
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# Local AI models
+# ==============================
+models/
+*.gguf
+*.safetensors
+*.bin
+*.onnx
+
+# ==============================
+# User documents
+# ==============================
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+
+# ==============================
+# Environment configuration
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.log
+
+# ==============================
+# Operating system
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# IDE
+# ==============================
+.idea/
+.vscode/
